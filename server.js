@@ -9,8 +9,8 @@ const server = app.listen(3001, () => {
 // console.log(uuidAPIKey.create());
 
 const key = {
-  apiKey: "BK7D492-HK0MGT7-GH977YS-4T2NGRT",
-  uuid: "5cced224-8cc1-4868-8452-73fb26855863",
+  apiKey: "***",
+  uuid: "***",
 };
 
 app.get("/api/users/:apikey/:type", async (req, res) => {
